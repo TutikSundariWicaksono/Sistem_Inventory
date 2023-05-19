@@ -66,7 +66,7 @@
                         <ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             <li class="user-header">
-                                <img src="{{ asset('user.png') }} " class="img-circle" alt="User Image">
+                                <img src="{{ asset('') }} " class="img-circle" alt="User Image">
 
                                 <p>
                                     {{ \Auth::user()->name  }}

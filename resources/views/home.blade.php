@@ -8,7 +8,7 @@
 <div class="row">
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-aqua">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\User::count() }}</h3>
 
@@ -23,11 +23,11 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-green">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\Category::count() }}<sup style="font-size: 20px"></sup></h3>
 
-                <p>Category</p>
+                <p>Kategori Bahan Baku</p>
             </div>
             <div class="icon">
                 <i class="fa fa-list"></i>
@@ -38,10 +38,10 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-yellow">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\Product::count() }}</h3>
-                <p>Product</p>
+                <p>Bahan Baku</p>
             </div>
             <div class="icon">
                 <i class="fa fa-cubes"></i>
@@ -52,11 +52,11 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-red">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\Customer::count() }}</h3>
 
-                <p>Customer</p>
+                <p>Karyawan</p>
             </div>
             <div class="icon">
                 <i class="fa fa-users"></i>
@@ -70,20 +70,7 @@
 
 
 <div class="row">
-    <div class="col-lg-3 col-xs-6">
-        <!-- small box -->
-        <div class="small-box bg-navy">
-            <div class="inner">
-                <h3>{{ \App\Sale::count() }}</h3>
-
-                <p>Sales</p>
-            </div>
-            <div class="icon">
-                <i class="ion ion-bag"></i>
-            </div>
-            <a href="{{ route('sales.index') }}" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-        </div>
-    </div>
+    
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
@@ -102,11 +89,11 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-maroon">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\Product_Masuk::count() }}</h3>
 
-                <p>Product In</p>
+                <p>Bahan Masuk</p>
             </div>
             <div class="icon">
                 <i class="fa fa-plus"></i>
@@ -117,11 +104,11 @@
     <!-- ./col -->
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-gray">
+        <div class="small-box bg-teal">
             <div class="inner">
                 <h3>{{ \App\Product_Keluar::count()  }}</h3>
 
-                <p>Product Out</p>
+                <p>Bahan Keluar</p>
             </div>
             <div class="icon">
                 <i class="fa fa-minus"></i>

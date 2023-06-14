@@ -10,7 +10,7 @@
     <div class="box">
 
         <div class="box-header">
-            <h3 class="box-title">Data Categories</h3>
+            <h3 class="box-title">Data Kategori</h3>
         </div>
 
         <div class="box-header">
